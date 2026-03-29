@@ -13,9 +13,15 @@
 		424010962F788F07001FC94D /* SupplementLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424010952F788F07001FC94D /* SupplementLog.swift */; };
 		424010992F788F49001FC94D /* RecoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424010982F788F49001FC94D /* RecoveryService.swift */; };
 		4240109C2F788F65001FC94D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4240109B2F788F65001FC94D /* ContentView.swift */; };
-		424010A12F789043001FC94D /* meGYMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424010A02F789043001FC94D /* meGYMApp.swift */; };
+		424010A12F789043001FC94D /*  SanctuaryGYMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424010A02F789043001FC94D /*  SanctuaryGYMApp.swift */; };
 		424010A72F789843001FC94D /* FoodLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424010A62F789843001FC94D /* FoodLog.swift */; };
 		424010A92F78987E001FC94D /* DailyNutritionSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424010A82F78987E001FC94D /* DailyNutritionSummary.swift */; };
+		42EA42012F78E3AC007D287A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA42002F78E3AC007D287A /* DashboardView.swift */; };
+		42EA42032F78E3E3007D287A /* TrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA42022F78E3E3007D287A /* TrainingView.swift */; };
+		42EA42052F78E43F007D287A /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA42042F78E43F007D287A /* NutritionView.swift */; };
+		42EA420B2F78E4A9007D287A /* FitnessProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA420A2F78E4A9007D287A /* FitnessProgressView.swift */; };
+		42EA420D2F78E516007D287A /* SplashVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA420C2F78E516007D287A /* SplashVideoView.swift */; };
+		42EA420F2F78E559007D287A /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA420E2F78E559007D287A /* OnboardingFlowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +32,15 @@
 		424010952F788F07001FC94D /* SupplementLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementLog.swift; sourceTree = "<group>"; };
 		424010982F788F49001FC94D /* RecoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryService.swift; sourceTree = "<group>"; };
 		4240109B2F788F65001FC94D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		424010A02F789043001FC94D /* meGYMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meGYMApp.swift; sourceTree = "<group>"; };
+		424010A02F789043001FC94D /*  SanctuaryGYMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SanctuaryGYMApp.swift"; sourceTree = "<group>"; };
 		424010A62F789843001FC94D /* FoodLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLog.swift; sourceTree = "<group>"; };
 		424010A82F78987E001FC94D /* DailyNutritionSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyNutritionSummary.swift; sourceTree = "<group>"; };
+		42EA42002F78E3AC007D287A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		42EA42022F78E3E3007D287A /* TrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingView.swift; sourceTree = "<group>"; };
+		42EA42042F78E43F007D287A /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		42EA420A2F78E4A9007D287A /* FitnessProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessProgressView.swift; sourceTree = "<group>"; };
+		42EA420C2F78E516007D287A /* SplashVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVideoView.swift; sourceTree = "<group>"; };
+		42EA420E2F78E559007D287A /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				4240109B2F788F65001FC94D /* ContentView.swift */,
+				42EA420A2F78E4A9007D287A /* FitnessProgressView.swift */,
+				42EA42042F78E43F007D287A /* NutritionView.swift */,
+				42EA42002F78E3AC007D287A /* DashboardView.swift */,
+				42EA42022F78E3E3007D287A /* TrainingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,7 +109,9 @@
 		4240109D2F788F70001FC94D /* App */ = {
 			isa = PBXGroup;
 			children = (
-				424010A02F789043001FC94D /* meGYMApp.swift */,
+				42EA420E2F78E559007D287A /* OnboardingFlowView.swift */,
+				42EA420C2F78E516007D287A /* SplashVideoView.swift */,
+				424010A02F789043001FC94D /*  SanctuaryGYMApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -136,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4240106A2F78899D001FC94D /* Build configuration list for PBXProject "meGYM" */;
+			buildConfigurationList = 4240106A2F78899D001FC94D /* Build configuration list for PBXProject "SANCTUARYGYM" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -171,12 +189,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				424010922F788EE2001FC94D /*  LoggedWorkout.swift in Sources */,
-				424010A12F789043001FC94D /* meGYMApp.swift in Sources */,
+				42EA420D2F78E516007D287A /* SplashVideoView.swift in Sources */,
+				424010A12F789043001FC94D /*  SanctuaryGYMApp.swift in Sources */,
+				42EA420F2F78E559007D287A /* OnboardingFlowView.swift in Sources */,
 				424010962F788F07001FC94D /* SupplementLog.swift in Sources */,
 				424010A72F789843001FC94D /* FoodLog.swift in Sources */,
+				42EA42032F78E3E3007D287A /* TrainingView.swift in Sources */,
 				4240109C2F788F65001FC94D /* ContentView.swift in Sources */,
 				424010902F788EAA001FC94D /* RecoveryLog.swift in Sources */,
 				424010942F788EF4001FC94D /* Supplement.swift in Sources */,
+				42EA42012F78E3AC007D287A /* DashboardView.swift in Sources */,
+				42EA42052F78E43F007D287A /* NutritionView.swift in Sources */,
+				42EA420B2F78E4A9007D287A /* FitnessProgressView.swift in Sources */,
 				424010992F788F49001FC94D /* RecoveryService.swift in Sources */,
 				424010A92F78987E001FC94D /* DailyNutritionSummary.swift in Sources */,
 			);
@@ -372,7 +396,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4240106A2F78899D001FC94D /* Build configuration list for PBXProject "meGYM" */ = {
+		4240106A2F78899D001FC94D /* Build configuration list for PBXProject "SANCTUARYGYM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				424010782F7889A1001FC94D /* Debug */,

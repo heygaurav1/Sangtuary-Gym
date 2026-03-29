@@ -1,27 +1,40 @@
 import SwiftUI
-import SwiftData
 
 struct ContentView: View {
     var body: some View {
         TabView {
-            DashboardView()
-                .tabItem { Label("Dashboard", systemImage: "house.fill") }
+            // 1. DASHBOARD
+            NavigationStack {
+                DashboardView()
+            }
+            .tabItem {
+                Label("Dashboard", systemImage: "house.fill")
+            }
             
-            Text("Training")
-                .tabItem { Label("Train", systemImage: "dumbbell.fill") }
+            // 2. TRAINING
+            NavigationStack {
+                TrainingView()
+            }
+            .tabItem {
+                Label("Train", systemImage: "dumbbell.fill")
+            }
             
-            Text("Nutrition")
-                .tabItem { Label("Nutrition", systemImage: "fork.knife") }
+            // 3. NUTRITION
+            NavigationStack {
+                NutritionView() // Removed the '1'
+            }
+            .tabItem {
+                Label("Nutrition", systemImage: "fork.knife")
+            }
             
-            Text("Progress")
-                .tabItem { Label("Progress", systemImage: "chart.bar.fill") }
+            // 4. PROGRESS
+            NavigationStack {
+                FitnessProgressView() // Removed the '1'
+            }
+            .tabItem {
+                Label("Progress", systemImage: "chart.bar.fill")
+            }
         }
-    }
-}
-
-struct DashboardView: View {
-    var body: some View { 
-        Text("Dashboard Working")
-            .font(.title)
+        .accentColor(.green)
     }
 }
