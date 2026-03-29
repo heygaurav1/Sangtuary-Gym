@@ -1,8 +1,8 @@
 # 🏋️ Sanctuary-GYM
 
 **Your all-in-one fitness companion for workouts, nutrition, and discipline.**
-![Uploading Screenshot 2026-03-29 at 12.03.52 PM.png…]()
 <img width="578" height="1052" alt="Screenshot 2026-03-29 at 12 04 03 PM" src="https://github.com/user-attachments/assets/c41cfd1e-f0fa-4b5a-8e6a-948f3b985160" />
+<img width="583" height="1053" alt="Screenshot 2026-03-29 at 12 03 52 PM" src="https://github.com/user-attachments/assets/47d82cd9-2440-4f20-8d62-3736a208d62d" />
 
 ---
 
